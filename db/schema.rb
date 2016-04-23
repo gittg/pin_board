@@ -15,9 +15,9 @@ ActiveRecord::Schema.define(version: 20160423091446) do
 
   create_table "pins", force: :cascade do |t|
     t.string   "title"
-    t.text     "desription"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.text     "description"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
   end
 
 end
